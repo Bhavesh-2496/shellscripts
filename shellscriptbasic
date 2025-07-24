@@ -1,0 +1,22 @@
+=>What is SHELL?
+	it is provide an environment to a user to execute commands and interact with kernel.
+
+=>There are different type of shell.
+	bash, sh, ksh, tsh, fish, zsh.
+
+=> you can check your shell by #echo $0
+=> which shell is present in your distro #cat /etc/shells
+=> What is ahell script?
+	it is set of command execute sequentially.
+=>Basic Script
+	#!/bin/bash
+	echo "hello world!"
+=> How to Run a Script?
+	make sure it has execute permission.
+	$chmod 777 <filename>
+	./script.sh
+	/path/script.sh
+	bash script.sh
+
+	ctrl+c to terminate
+	ctrl+z to stop
